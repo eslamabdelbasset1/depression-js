@@ -119,6 +119,11 @@ footer .portfolio {
     background-color: #E0FC60;
     color: #555;
 }
+.btn-solid:hover {
+    background-color: #0061fe;
+    color: #000;
+}
+
 .btn:hover {
     cursor: pointer;
     background-color: #fff;
