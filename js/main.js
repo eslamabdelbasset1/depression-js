@@ -2,7 +2,7 @@ const videoElement1 = document.getElementById('vid1');
 const videoElement2 = document.getElementById('vid2');
 const videoElement1Con = document.getElementById('vid1Con');
 const videoElement2Con = document.getElementById('vid2Con');
-
+const x = document.getElementById('x');
 
 const sections = document.querySelectorAll('.section');
 let takenHugs = 0;
@@ -98,10 +98,12 @@ document.getElementById('startBtn').addEventListener('click', (event) => {
         if(videoElement1.currentTime > 6){
             videoElement1.pause();
             videoElement2Con.style.display = "flex"
+            x.style.display = "flex"
             console.log(videoElement1.currentTime)
             goToScroll(videoElement2Con.id)
             videoElement2.play();
             videoElement1Con.style.display = "none"
+            x.style.display = "none"
 
         }
     },500)
