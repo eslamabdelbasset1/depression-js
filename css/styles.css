@@ -167,3 +167,7 @@ footer .portfolio {
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
 }
+#vid2Con #vid1,
+#vid2Con #vid2{
+    margin-top:12% !important;
+}

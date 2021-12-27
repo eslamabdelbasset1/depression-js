@@ -107,8 +107,6 @@ document.getElementById('startBtn').addEventListener('click', (event) => {
     },500)
 })
 
-
-
 let goToScroll = (elm) => {
     location.href = `#${elm}`;
 }
